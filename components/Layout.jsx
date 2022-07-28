@@ -4,7 +4,6 @@ import { Box } from '@chakra-ui/react';
 const Layout = ({children}) => (
     <>
         <Head>
-            //set title on top of browser tab
             <title>Real Estate</title>
         </Head>
         <Box maxWidth='1280px' m='auto'>

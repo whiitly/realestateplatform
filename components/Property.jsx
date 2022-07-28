@@ -30,7 +30,6 @@ const Property = ({ property: { coverPhoto, price, rentFrequency, rooms, title, 
                 <Text fontSize='lg'>
                     {title.length > 30 ? `${title.substring(0, 30)}...` : title}
                 </Text>
-
             </Box>
         </Flex>
     </Link>
